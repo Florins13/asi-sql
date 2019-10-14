@@ -8,7 +8,7 @@ create table suppliers (
 
 create table products (
 	code int primary key,
-	supplier_code int NOT NULL,
+	supplier_code int FOREIGN KEY REFERENCES suppliers(code),
 	min_stock int,
 	order_state boolean,
 	order_quantity int
