@@ -10,5 +10,6 @@ create table products (
 	code int primary key,
 	supplier_code int NOT NULL,
 	min_stock int,
+	order_state boolean,
 	order_quantity int
 ); 

@@ -6,7 +6,6 @@ create table products (
 	price float NOT NULL,
 	stock int,
 	prod_type char(15) NOT NULL,
-	prod_state char(15)
 );
 
 --select * from products;
