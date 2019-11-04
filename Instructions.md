@@ -10,6 +10,7 @@
 6. Run the SQL management studio as admin.
 7. Give permissions to the created instances to the current users. (The folder can be found by cheing the properties)
 8. To remove or change the endpoints we need to find it under Server Objects->Objects->Endpoints->DatabaseMirror
+9. To active the tcp connections (partner) we need to enable the Protocals inside computer management->Services and applications->SQL Services and do enable
 
 ### Config the DB mirror
 1. 
